@@ -7,6 +7,9 @@
     <title>Documents</title>
 </head>
 <body>
+    @auth
+        
+    @endauth
     @yield('content')
 </body>
 </html>
